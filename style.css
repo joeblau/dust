@@ -764,6 +764,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bloc-group-text-vc, .mobile .bloc-group-text-vc{
 	margin-top:0%;
 }
+.blocs-mob-center-text-title, .mobile .blocs-mob-center-text-title{
+	font-size:24px;
+}
+.blocs-mob-center-text-title-mobile, .mobile .blocs-mob-center-text-title-mobile{
+	font-size:18px;
+	color:#FEFFFF!important;
+	text-align:right;
+}
  }
 
 @media (max-width: 420px){
@@ -779,5 +787,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .blocs-mob-center-text{
 	line-height:32px;
 }
- }
+ /* = Text Mobile Alignment Classes
+-------------------------------------------------------------- */
+.text-center-xs{
+	text-align:center;
+}
+}
 
